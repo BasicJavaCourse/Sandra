@@ -10,6 +10,7 @@ package Tema1.Ejercicios;
 public class A_HolaSandra {
 
     public static void main(String[] args) {
+        System.out.print("HOLA SANDRA");
 
     }
 
