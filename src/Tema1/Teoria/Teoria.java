@@ -41,13 +41,18 @@ JAVA BASICS
         Una variable, es un lugar de memoria del programa donde se guardan datos. de esa manera, si yo guardo la palabra
         "Hola" en una variable llamada var, siempre que use la variable var en el programa, estaré usando la palabra "Hola".
         Esto es útil para introducir datos por pantalla y guardarlos.
-        Hay 3 tipos de variables principales que veremos por el momento. int -> numeros, char -> letras, String -> palabras.
+        Hay 3 tipos de variables principales que veremos por el momento.
+        int -> numeros,
+        char -> letras,
+        String -> palabras.
 
     3. Introducir datos por teclado, sacar datos por pantalla
 
        Introducir
-           Scanner capt = new Scanner(System.in);
-           int a = capt.nextInt(); String a = capt.nextLine(); char a = capt.nextLine().charAt(0);
+           Scanner capt = new Scanner(System.in); --> SIEMPRE
+           int a = capt.nextInt();
+           String a = capt.nextLine();
+           char a = capt.nextLine().charAt(0);
        Mostrar
            System.out.print("");
 
@@ -58,6 +63,11 @@ JAVA BASICS
         else {
         }
 
+        igual ==
+        mayor >
+        menor <
+        mayor o igual >=
+        menor o igual <=
     5. Switch
         switch (variable) {
             case 1:  variable1 = "";
